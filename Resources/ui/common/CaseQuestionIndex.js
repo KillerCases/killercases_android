@@ -95,7 +95,7 @@ var makeRow = function(/*Object*/ _params) {
 		//Case 4 - Food Aid
 			{subtitle: 'Q1 What should Food Aid do about price increases?', className:"tableRow"},
 			{subtitle: 'Q2 Can they define a strategic direction?', className:"tableRow"},
-			{image: '/images/thumbnails/question3.png', subtitle: 'Q3 How should Food Aid measure success?', className:"tableRow"},
+			{subtitle: 'Q3 How should Food Aid measure success?', className:"tableRow"},
 		//Case 5 - MNI Snacks
 			{subtitle: 'Q1 How should MNI approach international expansion?', className:"tableRow"},
 			{subtitle: 'Q2 Should they acquire a manufacturing business in Germany?', className:"tableRow"},
@@ -119,7 +119,7 @@ var makeRow = function(/*Object*/ _params) {
 		//Case 10 - ChelmWest
 			{subtitle: 'Q1 How is the ChelmWest portfolio performing?', className:"tableRow"},
 			{subtitle: 'Q2 What are the pros & cons of fixed rate mortgages?', className:"tableRow"},
-			{subtitle: 'Q3How should ChelmWest conduct marketing & distribution?', className:"tableRow"}
+			{subtitle: 'Q3 How should ChelmWest conduct marketing & distribution?', className:"tableRow"}
 		];
 	
 		

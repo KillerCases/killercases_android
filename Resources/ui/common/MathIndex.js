@@ -11,7 +11,7 @@ var self = Titanium.UI.createWindow({
 var makeRow = function(/*Object*/ _params) {
 			var row = Ti.UI.createTableViewRow({
 				backgroundColor:'transparent',
-				height:'auto'
+				height:120
 			});
 			var rowArrow = Ti.UI.createImageView({
 				image:'/images/Icons/right_circular/right_circular-64.png',

@@ -82,7 +82,7 @@ function CoachEmail(){
 				fontSize:32,
 				fontWeight:'bold'
 			},
-		height:'10%',
+		height:100,
 		width:'90%',
 		// top:'76%',
 		borderRadius: 10,
