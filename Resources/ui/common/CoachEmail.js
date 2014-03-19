@@ -93,12 +93,14 @@ function CoachEmail(){
 	});
 
 	
-	var emailDialog = Ti.UI.createEmailDialog();
-		emailDialog.subject = "Coach Request";
-		emailDialog.toRecipients = ['jo.killercases@gmail.com'];
-		emailDialog.html = true;
-		
+	var emailDialog = Ti.UI.createEmailDialog({
+		subject: "Coach Request",
+		toRecipients: 'jo.killercases@gmail.com',
+		html: true
+	});
+			
 	button.addEventListener('click', function(e){
+		Ti.API.info('button is clicked');
 		emailDialog.messageBody = "Please send information about Interview Coaching. For your reference, my name is " + text1.value +" and I have a background in "+text2.value +".";
 		emailDialog.open();
 	});
