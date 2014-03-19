@@ -49,12 +49,12 @@ function CoachEmail(){
  		 color:'black',
  		 hintText: 'Your Name',
  		 layout:'vertical',
- 		 width: '90%', height: '20%'
+ 		 width: '90%', height: 100
 	});
 	
 	var space1 = Ti.UI.createView({
 		// top:'60%',
-		height: '1%',
+		height: 20,
 		width: '100%',
 		backgroundColor: 'white'
 	});
@@ -66,12 +66,12 @@ function CoachEmail(){
  		 // top: '63%',
  		 hintText: 'Your Background',
  		 layout:'vertical',
- 		 width: '90%', height: '20%'
+ 		 width: '90%', height: 100
 	});
 	
 	var space2 = Ti.UI.createView({
 		// top:'73%',
-		height: '1%',
+		height: 20,
 		width: '100%',
 		backgroundColor: 'white'
 	});
@@ -82,7 +82,7 @@ function CoachEmail(){
 				fontSize:32,
 				fontWeight:'bold'
 			},
-		height:'20%',
+		height:'10%',
 		width:'90%',
 		// top:'76%',
 		borderRadius: 10,
