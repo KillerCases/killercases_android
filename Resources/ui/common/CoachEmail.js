@@ -44,32 +44,34 @@ function CoachEmail(){
 	
 	var text1 = Ti.UI.createTextField({
  		 borderStyle: Ti.UI.INPUT_BORDERSTYLE_ROUNDED,
- 		 color: '#5AC8FB',
+ 		 borderColor: '#5AC8FB',
  		 // top: '50%',
+ 		 color:'black',
  		 hintText: 'Your Name',
  		 layout:'vertical',
- 		 width: '90%', height: '10%'
+ 		 width: '90%', height: '20%'
 	});
 	
 	var space1 = Ti.UI.createView({
 		// top:'60%',
-		height: '3%',
+		height: '1%',
 		width: '100%',
 		backgroundColor: 'white'
 	});
 	
 	var text2 = Ti.UI.createTextField({
  		 borderStyle: Ti.UI.INPUT_BORDERSTYLE_ROUNDED,
- 		 color: '#5AC8FB',
+ 		 borderColor:'#5AC8FB',
+ 		 color: 'black',
  		 // top: '63%',
  		 hintText: 'Your Background',
  		 layout:'vertical',
- 		 width: '90%', height: '10%'
+ 		 width: '90%', height: '20%'
 	});
 	
 	var space2 = Ti.UI.createView({
 		// top:'73%',
-		height: '3%',
+		height: '1%',
 		width: '100%',
 		backgroundColor: 'white'
 	});
@@ -77,10 +79,10 @@ function CoachEmail(){
 	var button =Ti.UI.createButton({
 		title:'SEND',
 		font:{
-				fontSize:13,
+				fontSize:32,
 				fontWeight:'bold'
 			},
-		height:'10%',
+		height:'20%',
 		width:'90%',
 		// top:'76%',
 		borderRadius: 10,
