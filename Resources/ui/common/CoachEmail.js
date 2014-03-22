@@ -16,11 +16,11 @@ function CoachEmail(){
   		// showVerticalScrollIndicator: true
 	// });
 	
-	// var image = Ti.UI.createImageView({
-		// top:'5%',
-		// image:'/images/evisors.png',
-		// width:'100%'
-	// });
+	var image = Ti.UI.createImageView({
+		top:'5%',
+		image:'/images/evisors.png',
+		width:'100%'
+	});
 	
 	// var intro1 = Ti.UI.createTextArea({
 		// // top:'35%',
@@ -33,7 +33,7 @@ function CoachEmail(){
 	// });
 // 	
 	var intro2 = Ti.UI.createLabel({
-		top:0,
+		top:'40%',
 		width:'90%',
 		color: 'black',
 		font:{
@@ -46,16 +46,17 @@ function CoachEmail(){
 	var text1 = Ti.UI.createTextField({
  		 borderStyle: Ti.UI.INPUT_BORDERSTYLE_ROUNDED,
  		 borderColor: '#5AC8FB',
- 		 top: 50,
+ 		 top: '50%',
  		 color:'black',
  		 hintText: 'Your Name',
- 		 layout:'vertical',
+ 		 height: '10%',
+ 		 // layout:'vertical',
  		 width: '90%'
 	});
 	
 	var space1 = Ti.UI.createView({
-		top:100,
-		// height: 20,
+		top:'60%',
+		height: '2%',
 		width: '100%',
 		backgroundColor: 'white'
 	});
@@ -64,29 +65,29 @@ function CoachEmail(){
  		 borderStyle: Ti.UI.INPUT_BORDERSTYLE_ROUNDED,
  		 borderColor:'#5AC8FB',
  		 color: 'black',
- 		 top: 150,
+ 		 top: '62%',
  		 hintText: 'Your Background',
- 		 layout:'vertical',
+ 		 height: '10%',
+ 		 // layout:'vertical',
  		 width: '90%'
 	});
 	
 	var space2 = Ti.UI.createView({
-		top:200,
-		// height: 20,
+		top:'72%',
+		height: '2%',
 		width: '100%',
 		backgroundColor: 'white'
 	});
 	
 	var button =Ti.UI.createButton({
-		top:250,
+		top:'74%',
 		title:'SEND',
 		font:{
 				fontSize:32,
 				fontWeight:'bold'
 			},
-		height:120,
+		height:'10%',
 		width:'90%',
-		top:'76%',
 		borderRadius: 10,
 		color: 'white',
 		zIndex: 1,
@@ -117,6 +118,7 @@ function CoachEmail(){
 	// view.add(button);
 	// self.add(view);
 	
+	self.add(image);
 	self.add(intro2);
 	self.add(text1);
 	self.add(space1);
