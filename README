@@ -1,11 +1,17 @@
-Welcome to your Appcelerator Titanium Mobile Project
+KILLERCASES ANDROID
 
-This is a blank project.  Start by editing your application's app.js to 
-make your first mobile project using Titanium.
+--------------------------------------
+#### INSTRUCTIONS ON HOW TO BUILD APP ###
 
+Build and sign your app using the CLI
+To use the Titanium CLI to package your Android application, after you have created your keystore, run the following command
+ti build -p android -T dist-playstore -K /Users/jwightman/Dropbox/KillerCasesKeystore -P Management2011 -L killercases -O /Users/jwightman/Dropbox/killercases_android
 
+Verify your app is signed correctly and ready to be uploaded
+Before uploading, you should verify that the APK file was created and signed correctly. You'll do so with another Android SDK command-line tool. At the command prompt, enter:
+jarsigner -verify -verbose /Users/jwightman/Dropbox/killercases_android/killercases.apk
 
-----------------------------------
+--------------------------------------
 Stuff our legal folk make us say:
 
 Appcelerator, Appcelerator Titanium and associated marks and logos are 
