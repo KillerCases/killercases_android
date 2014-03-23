@@ -32,21 +32,11 @@ function CoachEmail(){
 		// value: 'Evisors can connect you with expert coaches for consulting interview practice.'	
 	// });
 // 	
-	var intro2 = Ti.UI.createLabel({
-		top:'40%',
-		width:'90%',
-		color: 'black',
-		font:{
-				fontSize:32,
-				//fontWeight:'bold'
-			},
-		text: 'Please fill in your details to find out more:'	
-	});
 	
 	var text1 = Ti.UI.createTextField({
  		 borderStyle: Ti.UI.INPUT_BORDERSTYLE_ROUNDED,
  		 borderColor: '#5AC8FB',
- 		 top: '50%',
+ 		 top: '40%',
  		 color:'black',
  		 hintText: 'Your Name',
  		 height: '10%',
@@ -55,7 +45,7 @@ function CoachEmail(){
 	});
 	
 	var space1 = Ti.UI.createView({
-		top:'60%',
+		top:'50%',
 		height: '2%',
 		width: '100%',
 		backgroundColor: 'white'
@@ -65,7 +55,7 @@ function CoachEmail(){
  		 borderStyle: Ti.UI.INPUT_BORDERSTYLE_ROUNDED,
  		 borderColor:'#5AC8FB',
  		 color: 'black',
- 		 top: '62%',
+ 		 top: '52%',
  		 hintText: 'Your Background',
  		 height: '10%',
  		 // layout:'vertical',
@@ -73,14 +63,14 @@ function CoachEmail(){
 	});
 	
 	var space2 = Ti.UI.createView({
-		top:'72%',
+		top:'62%',
 		height: '2%',
 		width: '100%',
 		backgroundColor: 'white'
 	});
 	
 	var button =Ti.UI.createButton({
-		top:'74%',
+		top:'64%',
 		title:'SEND',
 		font:{
 				fontSize:32,
@@ -95,6 +85,17 @@ function CoachEmail(){
 		backgroundColor:'#5AC8FB'
 	});
 
+
+	var intro2 = Ti.UI.createLabel({
+		top:'76%',
+		width:'90%',
+		color: 'black',
+		font:{
+				fontSize:24,
+				//fontWeight:'bold'
+			},
+		text: 'We will send details about management consulting interview coaches who are available to work with.'	
+	});
 	
 	var emailDialog = Ti.UI.createEmailDialog({
 		subject: "Coach Request",
